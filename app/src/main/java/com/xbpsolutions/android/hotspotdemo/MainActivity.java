@@ -52,8 +52,6 @@ public class MainActivity extends AppCompatActivity {
     private void processDisplayWifies(List<ScanResult> mScanResults) {
 
         layoutResults.removeAllViews();
-
-
         for (ScanResult mScanResult : mScanResults) {
             Log.e("WIFi : ", mScanResult.SSID + " " + mScanResult.capabilities);
 
