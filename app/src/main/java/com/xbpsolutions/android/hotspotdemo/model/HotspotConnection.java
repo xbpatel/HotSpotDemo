@@ -10,5 +10,30 @@ public class HotspotConnection {
     private int ip;
     private String mac;
 
+    public HotspotConnection() {
+    }
 
+    public String getSsid() {
+        return ssid;
+    }
+
+    public void setSsid(String ssid) {
+        this.ssid = ssid;
+    }
+
+    public int getIp() {
+        return ip;
+    }
+
+    public void setIp(int ip) {
+        this.ip = ip;
+    }
+
+    public String getMac() {
+        return mac;
+    }
+
+    public void setMac(String mac) {
+        this.mac = mac;
+    }
 }
